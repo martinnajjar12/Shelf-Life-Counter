@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 375px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    background-color: #BACDB0;
+    font-size: 40px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 375px;
+    height: 100vh;
+    background-color: #eee;
+}
+
+p {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+input {
+    display: block;
+    margin: 20px auto 0 auto;
+    height: 35px;
+    width: 150px;
+}
+
+::-webkit-inner-spin-button {
+    font-size: 22px;
+}
+
+#the-last-day {
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    padding: 15px;
+}
+
+#submit-btn {
+    font-size: 20px;
+    cursor: pointer;
+}
